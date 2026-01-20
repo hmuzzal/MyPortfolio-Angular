@@ -1,0 +1,54 @@
+.education-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.education-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.education-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+}
+
+.education-year {
+  font-weight: 700;
+  color: #007bff;
+  font-size: 1.05rem;
+}
+
+.education-right h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.education-field {
+  margin-top: 0.25rem;
+  color: #555;
+}
+
+.education-extra {
+  margin-top: 0.7rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+  }
+
+  .education-left {
+    min-width: 100%;
+  }
+}
